@@ -76,29 +76,41 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 os.system("clear")
-print "\033[1;96m ============================================================="
-print  """\033[1;96m [¤] \x1b[0;36mASSALAMUALAIKUM\x1b[1;96m  \033[1;96m   [¤] \x1b[0;36mWHATSAPP : 085691015635\x1b[1;96m  
-\033[1;96m [¤] \x1b[0;36mSELAMAT DATAMG\x1b[1;96m      [¤] \x1b[0;36mFACEBOOK : tools termux\x1b[1;96m  
-\033[1;96m [¤] \x1b[0;36mTOOLS BY AFZAL\x1b[1;96m  [¤] \x1b[0;36mYOUTUBE  : A Smart Tips\x1b[1;96m"""
-print " \x1b[1;93m============================================================="
+print  """
+\033[1;96m╔══╗╔╗──────╔╗─╔═╗╔═╗───╔═╗
+\033[1;96m║╔╗║║║──────║║─║║╚╝║║───║╔╝
+\033[1;96m║╚╝╚╣║╔══╦══╣║╔╣╔╗╔╗╠══╦╝╚╦╦══╗
+\033[1;96m║╔═╗║║║╔╗║╔═╣╚╝╣║║║║║╔╗╠╗╔╬╣╔╗║
+\033[1;96m║╚═╝║╚╣╔╗║╚═╣╔╗╣║║║║║╔╗║║║║║╔╗║
+\033[1;96m╚═══╩═╩╝╚╩══╩╝╚╩╝╚╝╚╩╝╚╝╚╝╚╩╝╚╝
+\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mBlackMafia\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""       
+jalan("\033[1;96m-_____    _____   _     _  _______  _       
+jalan("\033[1;96m(_____)  (_____) (_)   (_)(_______)(_)      
+jalan("\033[1;96m(_)___(_)(_)___(_)(_)___(_)   (_)   (_)      
+jalan("\033[1;96m(_______)(_______)(_______)   (_)   (_)      
+jalan("\033[1;96m(_)   (_)(_)   (_)(_)   (_) __(_)__ (_)____  
+jalan("\033[1;96m(_)   (_)(_)   (_)(_)   (_)(_______)(______)
+jalan('\033[1;93m              Welcome to BlackMafia')
+print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
-CorrectUsername = "A"
-CorrectPassword = "A"
+CorrectUsername = "rana"
+CorrectPassword = "rana"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[0;31mUSERNAME TOOLS INI \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;97m📋 \x1b[1;96mTool Username \x1b[1;97m»» \x1b[1;97m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[0;31mPASSWORD TOOLS INI \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;97m🗝 \x1b[1;96mTool Password \x1b[1;97m»» \x1b[1;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username
+            print "Logged in successfully as " + username #Dev:love_hacker
+	    time.sleep(2)
             loop = 'false'
         else:
-            print "yang bener dong"
-            os.system('xdg-open https://wa.me/6285691015635')
+            print "\033[1;96mWrong Password"
+            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
     else:
-        print "salah sayang!"
-        os.system('xdg-open https://wa.me/6285691015635')
+        print "\033[1;96mWrong Username"
+        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 
 def login():
 	os.system('clear')
